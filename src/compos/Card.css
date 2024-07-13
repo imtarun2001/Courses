@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.card {
+    max-width: 310px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid aliceblue;
+    margin: 15px;
+}
+
+img {
+    height: 170px;
+    border: 1px solid aqua;
+}
+
+.like-btn {
+    padding: 5px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: azure;
+    cursor: pointer;
+    position: relative;
+    bottom: 30px;
+    right: 100px;
+}
+
+.description-holder {
+    text-align:left;
+    width: 95%;
+    position: relative;
+    bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 13px;
+    text-align: left;
+    height: 100px;
+    color: rgb(199, 245, 245);
+}
+
+.description-holder>p {
+    color: rgb(199, 245, 245);
+}
+
+.title-holder {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 95%;
+    position: relative;
+    bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    height: 45px;
+}
+
+.btn-holder {
+    border: none;
+}
