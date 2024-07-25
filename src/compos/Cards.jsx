@@ -5,7 +5,6 @@ import './Cards.css';
 function Cards(props) {
     let courses = props.courses;
     let category = props.category;
-    let setCategory = props.setCategory;
     const[likedCourses,setLikedCourses] = useState([]);
     function getCourses() {
         if(category === 'All') {

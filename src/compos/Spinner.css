@@ -11,13 +11,12 @@
     grid-area: 1/1;
     border: 9px solid;
     border-radius: 50%;
-    border-color: #0007ff #0007ff #0000 #0000;
-    mix-blend-mode: darken;
+    border-color: #de58ff #5d62ff #00d9ffa4 #9c07ff8b;
     animation: spinner-plncf9 1.2s infinite linear;
  }
  
  .spinner::after {
-    border-color: #0000 #0000 #dbdcef #dbdcef;
+    /* border-color: #00d0dbef #71b5ffb0 #050da1 #007a37; */
     animation-direction: reverse;
  }
  
@@ -25,4 +24,9 @@
     100% {
        transform: rotate(1turn);
     }
+ }
+
+ .spin {
+   position: relative;
+   top: 120px;
  }

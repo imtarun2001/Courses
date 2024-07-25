@@ -7,6 +7,7 @@ import Filterbar from './compos/Filterbar';
 import Cards from './compos/Cards';
 import Spinner from './compos/Spinner';
 import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [courses,setCourses] = useState(null);
@@ -38,7 +39,7 @@ function App() {
           <Filterbar filterData={filterData} setCategory={setCategory}/>
         </div>
         <div className='cards-holder'>
-          {loader ? (<Spinner/>) : (<Cards courses={courses} category={category} setCategory={setCategory}/>)}
+          {loader ? (<Spinner/>) : (<Cards courses={courses} category={category}/>)}
         </div>
     </div>
   )

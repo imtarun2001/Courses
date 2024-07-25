@@ -2,6 +2,8 @@ import React from 'react';
 import './Card.css';
 import { FcLike } from "react-icons/fc";
 import { FcLikePlaceholder } from "react-icons/fc";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Card(props) {
     let course = props.course;
